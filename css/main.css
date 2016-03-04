@@ -1,5 +1,5 @@
 #page-wrapper {
-    max-width: 980px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -23,4 +23,13 @@
 
 .btn-danger {
     margin-right: 20px;
+}
+
+.insane-counter, .sane-counter {
+    padding: 0;
+    top: 60px;
+}
+
+.insane-counter {
+    top:80px;
 }
