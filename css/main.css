@@ -1,0 +1,26 @@
+#page-wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#main-vote {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#vote-image {
+    height: 300px;
+}
+
+#vote-buttons {
+    margin-top: 30px;
+}
+
+.btn-danger {
+    margin-right: 20px;
+}
