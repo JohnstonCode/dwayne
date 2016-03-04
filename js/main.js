@@ -1,10 +1,12 @@
 (function(){
     
-    $('#insane-vote').on('click', function(){
+    $('.vote-button').on('click', function(){
+        
+        var vote = $(this).attr('value');
        
         $.post("vote.php",
         {
-            vote: "insane"
+            vote: vote
         },
         function(data, status){
             if(data == 'Vote added')

@@ -46,8 +46,8 @@
                         <h3 class="panel-title">Vote Now!</h3>
                     </div>
                     <div class="panel-body" id="vote-buttons">
-                        <button type="button" class="btn btn-danger" id="insane-vote">Insane</button>
-                        <button type="button" class="btn btn-success" id="sane-vote">Sane</button>  
+                        <button type="button" class="btn btn-danger vote-button" id="insane-vote" value="insane">Insane</button>
+                        <button type="button" class="btn btn-success vote-button" id="sane-vote" value="sane">Sane</button>  
                     </div>
                 </div>
             </div>

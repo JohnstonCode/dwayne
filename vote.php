@@ -12,5 +12,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         $vote->addInsaneVote();
         echo 'Vote added';
     }
+    elseif ($_POST['vote'] == 'sane') 
+    {
+        $vote->addSaneVote();
+        echo 'Vote added';
+    }
     
 }
