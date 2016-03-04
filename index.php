@@ -46,8 +46,8 @@
                         <h3 class="panel-title">Vote Now!</h3>
                     </div>
                     <div class="panel-body" id="vote-buttons">
-                        <button type="button" class="btn btn-danger">Insane</button>
-                        <button type="button" class="btn btn-success">Sane</button>  
+                        <button type="button" class="btn btn-danger" id="insane-vote">Insane</button>
+                        <button type="button" class="btn btn-success" id="sane-vote">Sane</button>  
                     </div>
                 </div>
             </div>
@@ -57,6 +57,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
         
     </body>
 </html>
