@@ -80,6 +80,10 @@ while($row = $result->fetch_array(MYSQLI_ASSOC))
                 </div>
             </div>
         </div><!-- END of page wrapper -->
+        <footer>
+              <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/insane_dwayne" data-widget-id="711656204691443714">Tweets by @insane_dwayne</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </footer>
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

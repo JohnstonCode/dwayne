@@ -7,7 +7,7 @@ class Vote
     
     public function __construct()
     {
-        $this->conn = new mysqli('localhost', 'dwayne', 'dwayne123', 'dwayne');
+        $this->conn = new mysqli('localhost', 'root', '', 'dwayne');
     }
     
     public function addInsaneVote()
